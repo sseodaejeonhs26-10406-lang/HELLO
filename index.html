@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="대전의 폐의약품 배출 안내. 알약, 물약, 연고, 가루약의 배출 방법과 주의사항을 확인하세요.">
+  <title>약속 — 대전 폐의약품 배출 안내</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#guide">본문 바로가기</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#"><span class="brand-mark" aria-hidden="true">✳</span> 약속<span class="brand-sub">지구와 나의 작은 약속</span></a>
+    <span class="location"><span aria-hidden="true">⌖</span> 대전광역시</span>
+  </header>
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">MEDICINE, WITH CARE</p>
+        <h1 id="hero-title">남은 약의 마지막도,<br><span>환경을 생각해요.</span></h1>
+        <p class="intro">약마다 다른 배출 방법, 어렵지 않아요.<br>버릴 약의 종류를 고르면 차근차근 알려드릴게요.</p>
+        <a class="hero-link" href="#guide">내 약의 배출 방법 보기</a>
+        <a class="reason-link" href="#reasons">왜 올바르게 버려야 할까요?</a>
+        <a class="reason-link" href="#quiz">환경보호 퀴즈 풀기</a>
+      </div>
+      <svg class="hero-art" viewBox="0 0 420 300" fill="none" aria-hidden="true">
+        <circle cx="216" cy="150" r="126" fill="#DDEBE1"/>
+        <ellipse cx="219" cy="262" rx="135" ry="12" fill="#C9DDCF"/>
+        <path d="M310 214C300 182 309 159 335 146C345 174 338 200 310 214Z" fill="#769F7F"/>
+        <path d="M311 244C308 217 315 194 329 172" stroke="#315C45" stroke-width="3" stroke-linecap="round"/>
+        <g transform="translate(72 98) rotate(-24 49 70)"><rect width="98" height="146" rx="49" fill="#FCFBF7" stroke="#315C45" stroke-width="2"/><path d="M1 73H97V97C97 124 76 145 49 145S1 124 1 97Z" fill="#E7A281"/><path d="M1 73H97" stroke="#315C45" stroke-width="2"/><path d="M22 45C22 28 31 19 44 17" stroke="white" stroke-width="7" stroke-linecap="round"/></g>
+        <g transform="translate(199 65) rotate(10 50 94)"><rect x="21" width="58" height="32" rx="6" fill="#315C45"/><path d="M26 32H74V48L92 69V175C92 184 85 191 76 191H24C15 191 8 184 8 175V69L26 48V32Z" fill="#F8FAF5" stroke="#315C45" stroke-width="2"/><path d="M9 108H91V161H9Z" fill="#C6D9C1"/><path d="M50 119V150M35 135H65" stroke="#315C45" stroke-width="8" stroke-linecap="round"/><path d="M35 8V24M48 8V24M61 8V24" stroke="#94B29B" stroke-width="2"/></g>
+        <path d="M116 45V61M108 53H124M332 97V109M326 103H338" stroke="#315C45" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="64" cy="200" r="5" fill="#E7A281"/><circle cx="316" cy="47" r="4" fill="#E7A281"/>
+      </svg>
+      <span class="hero-caption">작은 분리배출, 건강한 내일.</span>
+    </section>
+
+    <section id="guide" class="guide" aria-labelledby="guide-title">
+      <div class="section-heading"><div><p class="eyebrow">DISPOSAL GUIDE</p><h2 id="guide-title">어떤 약을 버리시나요?</h2></div><p>약 종류를 선택해 주세요.</p></div>
+      <div class="medicine-options" role="group" aria-label="폐기할 약 종류">
+        <button type="button" class="medicine-option" data-medicine="pill" aria-pressed="true" aria-controls="guide-panel"><span class="medicine-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><g transform="rotate(-40 24 24)"><rect x="12" y="4" width="24" height="40" rx="12" fill="#E5A181" stroke="currentColor" stroke-width="1.7"/><path d="M12 24V16a12 12 0 0 1 24 0v8Z" fill="#fff" stroke="currentColor" stroke-width="1.7"/></g></svg></span><span><strong>알약</strong><small>정제 · 캡슐</small></span><span class="selection-mark" aria-hidden="true">✓</span></button>
+        <button type="button" class="medicine-option" data-medicine="liquid" aria-pressed="false" aria-controls="guide-panel"><span class="medicine-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="17" y="3" width="14" height="8" rx="2" fill="#315C45"/><path d="M17 11H31V17L37 23V42H11V23L17 17Z" fill="#D1E2D0" stroke="currentColor" stroke-width="1.7"/><path d="M12 28H36V36H12" fill="#fff"/></svg></span><span><strong>물약</strong><small>시럽 · 액체 의약품</small></span><span class="selection-mark" aria-hidden="true">✓</span></button>
+        <button type="button" class="medicine-option" data-medicine="ointment" aria-pressed="false" aria-controls="guide-panel"><span class="medicine-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M12 5H36L31 36H17Z" fill="#E2DCEE" stroke="currentColor" stroke-width="1.7"/><path d="M15 10H33M23 17V28M18 23H28" stroke="currentColor" stroke-width="1.7"/><rect x="17" y="36" width="14" height="8" rx="2" fill="#315C45"/></svg></span><span><strong>연고</strong><small>튜브 · 크림</small></span><span class="selection-mark" aria-hidden="true">✓</span></button>
+        <button type="button" class="medicine-option" data-medicine="powder" aria-pressed="false" aria-controls="guide-panel"><span class="medicine-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><rect x="10" y="4" width="28" height="40" rx="3" fill="#F4E7C5" stroke="currentColor" stroke-width="1.7"/><path d="M11 11H37M11 37H37" stroke="currentColor" stroke-width="1.7"/><path d="M17 30L23 20L31 30Z" fill="#B18C47"/><circle cx="30" cy="19" r="2" fill="#B18C47"/></svg></span><span><strong>가루약</strong><small>약 포지</small></span><span class="selection-mark" aria-hidden="true">✓</span></button>
+      </div>
+      <noscript><p class="regional-note">약 종류를 선택하려면 JavaScript를 켜 주세요. 아래 알약 안내 또는 하단 공식 출처에서 배출 방법을 확인할 수 있습니다.</p></noscript>
+      <div id="guide-error" class="error-message" role="alert" hidden>
+        <p>안내 정보를 불러오지 못했어요. 다시 시도하거나 다른 약 종류를 골라 주세요.</p>
+        <button id="retry-guide" class="hero-link" type="button">다시 시도</button>
+      </div>
+      <article id="guide-panel" class="guide-panel" aria-labelledby="medicine-title">
+        <div class="panel-heading"><div><span class="tag">대전시 안내 기준 · 2023.09.20</span><h3 id="medicine-title">알약은 내용물만 모아 배출해요.</h3></div><span class="panel-symbol" aria-hidden="true">✳</span></div>
+        <p id="medicine-summary" class="panel-summary">정제·캡슐은 포장을 분리한 뒤, 약만 모아 폐의약품 수거함으로 가져가세요.</p>
+        <div class="regional-note"><strong>방문할 수거처의 기준을 먼저 확인해 주세요.</strong><p id="regional-detail">대전시(2023)는 알약의 포장 제거를 안내하지만, 동구 용전동(2026.10)은 포장지 그대로 배출하도록 안내합니다. 동구에서 배출할 때는 포장을 뜯기 전 수거처에 확인해 주세요.</p></div>
+        <div class="guide-body">
+          <div class="steps-area"><h4>이렇게 준비하세요</h4><ol id="medicine-steps" class="steps"><li><strong>포장을 분리해요</strong><p>수거처에서 포장 제거를 안내하면 종이·비닐·PTP 포장을 분리하세요.</p></li><li><strong>알약만 한곳에 모아요</strong><p>흩어지지 않게 봉투 등에 담아 가져갈 준비를 해 주세요.</p></li><li><strong>폐의약품 수거함으로 가져가요</strong><p>동 행정복지센터·보건소·약국에 수거 가능 여부를 확인한 뒤 방문하세요.</p></li></ol></div>
+          <aside class="caution" aria-labelledby="caution-title"><h4 id="caution-title"><span aria-hidden="true">!</span> 버리기 전, 꼭 기억해요</h4><ul id="medicine-cautions"><li>개인정보가 적힌 약봉투는 따로 분리하세요.</li><li>가루약은 알약과 달리 약 포지를 뜯지 않고 배출해요.</li><li>남은 약은 일반쓰레기나 하수구로 버리지 마세요.</li></ul><p class="caution-footer">건강보조식품은 폐의약품 수거 대상이 아니에요.</p></aside>
+        </div>
+      </article>
+      <p id="selection-status" class="sr-only" role="status" aria-live="polite"></p>
+    </section>
+    <section id="reasons" class="guide" aria-labelledby="reasons-title">
+      <div class="section-heading"><div><p class="eyebrow">WHY IT MATTERS</p><h2 id="reasons-title">왜 올바르게 버려야 할까요?</h2></div><p>네 장으로 알아보는 배출의 이유</p></div>
+      <div id="reason-error" class="error-message" role="alert" hidden>
+        <p>설명 자료를 불러오지 못했어요. 다시 시도해 주세요.</p>
+        <button id="retry-reasons" class="hero-link" type="button">다시 시도</button>
+        <a href="#guide">폐기 안내로 돌아가기</a>
+      </div>
+      <article id="reason-card" class="reason-card" aria-labelledby="reason-title">
+        <div id="reason-icon" class="reason-icon" aria-hidden="true">💧</div>
+        <div class="reason-copy" aria-live="polite" aria-atomic="true">
+          <p id="reason-topic" class="eyebrow">물을 지켜요</p>
+          <h3 id="reason-title">물에 흘려보내면, 물이 오염될 수 있어요.</h3>
+          <p id="reason-description">남은 약을 싱크대나 변기에 버리면 약 성분이 물로 흘러들 수 있어요. 물약도 하수구에 버리지 말고 따로 모아 주세요.</p>
+        </div>
+      </article>
+      <div id="reason-controls" class="reason-controls">
+        <button id="reason-prev" type="button" aria-controls="reason-card" disabled>이전</button>
+        <span id="reason-position" aria-label="전체 4장 중 1번째 카드">1 / 4</span>
+        <button id="reason-next" type="button" aria-controls="reason-card" disabled>다음</button>
+      </div>
+      <p class="reason-source">내용 근거: <a href="https://www.daejeon.go.kr/drh/board/boardNormalView.do?boardId=normal_0096&amp;menuSeq=1480&amp;ntatcSeq=1438964404&amp;pageIndex=1" target="_blank" rel="noopener noreferrer">대전시 폐의약품 안내<span class="sr-only"> · 새 창</span></a> · <a href="https://gnews.gg.go.kr/news/news_detail.do?number=202112311105338287C059&amp;s_code=C059" target="_blank" rel="noopener noreferrer">경기도 환경 영향 설명<span class="sr-only"> · 새 창</span></a></p>
+      <noscript><p class="regional-note">다른 카드를 보려면 JavaScript를 켜 주세요. 위 공식 출처에서도 배출 이유를 확인할 수 있어요.</p></noscript>
+    </section>
+    <section id="quiz" class="guide" aria-labelledby="quiz-title">
+      <div class="section-heading"><div><p class="eyebrow">ECO QUIZ</p><h2 id="quiz-title">환경보호 OX 퀴즈</h2></div><p>세 문제로 확인하는 배출 상식</p></div>
+      <div class="quiz-card">
+        <p id="quiz-recent" class="quiz-recent">최근 완료한 결과가 없어요.</p>
+        <div id="quiz-question-area">
+          <p id="quiz-position" class="tag">문제 1 / 3</p>
+          <h3 id="quiz-question" tabindex="-1">남은 물약은 싱크대에 흘려보내도 괜찮아요.</h3>
+          <div class="quiz-answers" role="group" aria-labelledby="quiz-question">
+            <button id="quiz-o" type="button" aria-label="O, 맞아요" aria-pressed="false" disabled><strong>O</strong><span>맞아요</span></button>
+            <button id="quiz-x" type="button" aria-label="X, 아니에요" aria-pressed="false" disabled><strong>X</strong><span>아니에요</span></button>
+          </div>
+          <div id="quiz-feedback" class="quiz-feedback" role="status" aria-live="polite" aria-atomic="true"></div>
+          <button id="quiz-next" class="quiz-action" type="button" disabled>다음 문제</button>
+        </div>
+        <div id="quiz-result" hidden>
+          <p class="eyebrow">퀴즈 완료</p>
+          <h3 id="quiz-score" tabindex="-1"></h3>
+          <p id="quiz-result-message"></p>
+          <button id="quiz-restart" class="quiz-action" type="button">다시 풀기</button>
+        </div>
+        <p class="quiz-note">문항당 1점 · 최근 완료 결과만 이 브라우저에 저장해요.</p>
+        <noscript><p class="regional-note">퀴즈를 풀려면 JavaScript를 켜 주세요.</p></noscript>
+      </div>
+    </section>
+    <footer id="sources" class="sources"><div><strong>안내의 근거를 확인하세요</strong><p>확인일 2026.11.23 · 기관별 안내가 다르면 방문할 수거처의 안내를 확인해 주세요.</p></div><div class="source-links"><a href="https://www.daejeon.go.kr/drh/board/boardNormalView.do?boardId=normal_0096&amp;menuSeq=1480&amp;ntatcSeq=1438964404&amp;pageIndex=1" target="_blank" rel="noopener noreferrer">대전시 배출 요령 (2023.09.20)<span class="sr-only"> · 새 창</span></a><a href="https://www.donggu.go.kr/dg/kor/article/noticeDong10/143619" target="_blank" rel="noopener noreferrer">동구 용전동 배출 요령 (2026.10.07)<span class="sr-only"> · 새 창</span></a></div></footer>
+  </main>
+  <div class="bottom-bar wrap"><span class="brand-footer">약속</span><span>오늘의 작은 실천이 내일의 환경을 지켜요.</span></div>
+</body>
+</html>
